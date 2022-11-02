@@ -5,11 +5,11 @@
 
 fn main() {
     let vec0 = Vec::new();
-    let v = vec0.clone();
-    let mut vec1 = fill_vec(vec0);
+
+    let mut vec1 = fill_vec(vec0.clone());
 
     // Do not change the following line!
-    println!("{} has length {} content `{:?}`", "vec0", v.len(), v);
+    println!("{} has length {} content `{:?}`", "vec0", vec0.len(), vec0);
 
     vec1.push(88);
 
